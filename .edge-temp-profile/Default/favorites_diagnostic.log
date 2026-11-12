@@ -1,0 +1,103 @@
+2026-11-12 14:38:18.710: [INFO] CurrentProfilePath: C:\Users\DATASOFT\Downloads\Portfolio\My Portfolio\.edge-temp-profile\Default
+2026-11-12 14:38:18.710: [INFO] Profiles total count: 1
+2026-11-12 14:38:18.710: [INFO] Profile: name=Profile 1 path=C:\Users\DATASOFT\Downloads\Portfolio\My Portfolio\.edge-temp-profile\Default lastActive=null
+2026-11-12 14:38:18.710: [INFO] LastUsedProfileDir: C:\Users\DATASOFT\Downloads\Portfolio\My Portfolio\.edge-temp-profile\Default
+2026-11-12 14:38:18.710: [INFO] VisibilityChanged: 0
+2026-11-12 14:38:18.761: [INFO] OnDoneLoading sync enabled: 0
+2026-11-12 14:38:18.761: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-11-12 14:38:18.761: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-11-12 14:38:18.761: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-11-12 14:38:18.890: [INFO] RecordSyncInitDuration has_sync_been_enabled: 0 state: 0
+2026-11-12 14:38:22.063: [INFO] RecordSyncInitDuration has_sync_been_enabled: 0 state: 0
+2026-11-12 14:38:22.086: [INFO] RecordSyncInitDuration has_sync_been_enabled: 0 state: 3
+2026-11-12 14:38:22.099: [INFO] Primary account changed.
+2026-11-12 14:38:22.099: [INFO] OnPrimaryAccountChanged PrimaryAccountChangeEvent::Type::kSet
+2026-11-12 14:38:22.133: [INFO] RecordSyncInitDuration has_sync_been_enabled: 0 state: 3
+2026-11-12 14:40:00.234: [INFO] CurrentProfilePath: C:\Users\DATASOFT\Downloads\Portfolio\My Portfolio\.edge-temp-profile\Default
+2026-11-12 14:40:00.234: [INFO] Profiles total count: 1
+2026-11-12 14:40:00.234: [INFO] Profile: name=Personal path=C:\Users\DATASOFT\Downloads\Portfolio\My Portfolio\.edge-temp-profile\Default lastActive=2026-11-12T14:38:18.735Z
+2026-11-12 14:40:00.234: [INFO] LastUsedProfileDir: C:\Users\DATASOFT\Downloads\Portfolio\My Portfolio\.edge-temp-profile\Default
+2026-11-12 14:40:00.235: [INFO] MostRecentlyActiveProfile: name=Personal path=C:\Users\DATASOFT\Downloads\Portfolio\My Portfolio\.edge-temp-profile\Default lastActive=2026-11-12T14:38:18.735Z
+2026-11-12 14:40:00.235: [INFO] VisibilityChanged: 0
+2026-11-12 14:40:00.320: [INFO] OnDoneLoading sync enabled: 1
+2026-11-12 14:40:00.320: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-11-12 14:40:00.320: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-11-12 14:40:00.320: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-11-12 14:40:07.628: [INFO] Sync initialization duration: 7301ms
+2026-11-12 14:40:41.356: [INFO] CurrentProfilePath: C:\Users\DATASOFT\Downloads\Portfolio\My Portfolio\.edge-temp-profile\Default
+2026-11-12 14:40:41.356: [INFO] Profiles total count: 1
+2026-11-12 14:40:41.356: [INFO] Profile: name=Personal path=C:\Users\DATASOFT\Downloads\Portfolio\My Portfolio\.edge-temp-profile\Default lastActive=2026-11-12T14:40:00.261Z
+2026-11-12 14:40:41.356: [INFO] LastUsedProfileDir: C:\Users\DATASOFT\Downloads\Portfolio\My Portfolio\.edge-temp-profile\Default
+2026-11-12 14:40:41.356: [INFO] MostRecentlyActiveProfile: name=Personal path=C:\Users\DATASOFT\Downloads\Portfolio\My Portfolio\.edge-temp-profile\Default lastActive=2026-11-12T14:40:00.261Z
+2026-11-12 14:40:41.356: [INFO] VisibilityChanged: 0
+2026-11-12 14:40:41.456: [INFO] OnDoneLoading sync enabled: 1
+2026-11-12 14:40:41.456: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-11-12 14:40:41.456: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-11-12 14:40:41.456: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-11-12 14:40:41.640: [INFO] Sync initialization duration: 177ms
+2026-11-12 14:42:26.690: [INFO] CurrentProfilePath: C:\Users\DATASOFT\Downloads\Portfolio\My Portfolio\.edge-temp-profile\Default
+2026-11-12 14:42:26.690: [INFO] Profiles total count: 1
+2026-11-12 14:42:26.690: [INFO] Profile: name=Personal path=C:\Users\DATASOFT\Downloads\Portfolio\My Portfolio\.edge-temp-profile\Default lastActive=2026-11-12T14:40:41.378Z
+2026-11-12 14:42:26.690: [INFO] LastUsedProfileDir: C:\Users\DATASOFT\Downloads\Portfolio\My Portfolio\.edge-temp-profile\Default
+2026-11-12 14:42:26.690: [INFO] MostRecentlyActiveProfile: name=Personal path=C:\Users\DATASOFT\Downloads\Portfolio\My Portfolio\.edge-temp-profile\Default lastActive=2026-11-12T14:40:41.378Z
+2026-11-12 14:42:26.690: [INFO] VisibilityChanged: 0
+2026-11-12 14:42:26.792: [INFO] OnDoneLoading sync enabled: 1
+2026-11-12 14:42:26.792: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-11-12 14:42:26.792: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-11-12 14:42:26.792: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-11-12 14:42:26.985: [INFO] Sync initialization duration: 184ms
+2026-11-12 14:42:56.139: [INFO] CurrentProfilePath: C:\Users\DATASOFT\Downloads\Portfolio\My Portfolio\.edge-temp-profile\Default
+2026-11-12 14:42:56.139: [INFO] Profiles total count: 1
+2026-11-12 14:42:56.139: [INFO] Profile: name=Personal path=C:\Users\DATASOFT\Downloads\Portfolio\My Portfolio\.edge-temp-profile\Default lastActive=2026-11-12T14:42:26.715Z
+2026-11-12 14:42:56.139: [INFO] LastUsedProfileDir: C:\Users\DATASOFT\Downloads\Portfolio\My Portfolio\.edge-temp-profile\Default
+2026-11-12 14:42:56.139: [INFO] MostRecentlyActiveProfile: name=Personal path=C:\Users\DATASOFT\Downloads\Portfolio\My Portfolio\.edge-temp-profile\Default lastActive=2026-11-12T14:42:26.715Z
+2026-11-12 14:42:56.139: [INFO] VisibilityChanged: 0
+2026-11-12 14:42:56.223: [INFO] OnDoneLoading sync enabled: 1
+2026-11-12 14:42:56.223: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-11-12 14:42:56.223: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-11-12 14:42:56.223: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-11-12 14:42:56.416: [INFO] Sync initialization duration: 185ms
+2026-11-12 14:43:22.675: [INFO] CurrentProfilePath: C:\Users\DATASOFT\Downloads\Portfolio\My Portfolio\.edge-temp-profile\Default
+2026-11-12 14:43:22.675: [INFO] Profiles total count: 1
+2026-11-12 14:43:22.675: [INFO] Profile: name=Personal path=C:\Users\DATASOFT\Downloads\Portfolio\My Portfolio\.edge-temp-profile\Default lastActive=2026-11-12T14:42:56.157Z
+2026-11-12 14:43:22.675: [INFO] LastUsedProfileDir: C:\Users\DATASOFT\Downloads\Portfolio\My Portfolio\.edge-temp-profile\Default
+2026-11-12 14:43:22.675: [INFO] MostRecentlyActiveProfile: name=Personal path=C:\Users\DATASOFT\Downloads\Portfolio\My Portfolio\.edge-temp-profile\Default lastActive=2026-11-12T14:42:56.157Z
+2026-11-12 14:43:22.675: [INFO] VisibilityChanged: 0
+2026-11-12 14:43:22.767: [INFO] OnDoneLoading sync enabled: 1
+2026-11-12 14:43:22.767: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-11-12 14:43:22.767: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-11-12 14:43:22.767: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-11-12 14:43:22.961: [INFO] Sync initialization duration: 183ms
+2026-11-12 14:45:47.518: [INFO] CurrentProfilePath: C:\Users\DATASOFT\Downloads\Portfolio\My Portfolio\.edge-temp-profile\Default
+2026-11-12 14:45:47.518: [INFO] Profiles total count: 1
+2026-11-12 14:45:47.518: [INFO] Profile: name=Personal path=C:\Users\DATASOFT\Downloads\Portfolio\My Portfolio\.edge-temp-profile\Default lastActive=2026-11-12T14:43:22.695Z
+2026-11-12 14:45:47.518: [INFO] LastUsedProfileDir: C:\Users\DATASOFT\Downloads\Portfolio\My Portfolio\.edge-temp-profile\Default
+2026-11-12 14:45:47.518: [INFO] MostRecentlyActiveProfile: name=Personal path=C:\Users\DATASOFT\Downloads\Portfolio\My Portfolio\.edge-temp-profile\Default lastActive=2026-11-12T14:43:22.695Z
+2026-11-12 14:45:47.518: [INFO] VisibilityChanged: 0
+2026-11-12 14:45:47.616: [INFO] OnDoneLoading sync enabled: 1
+2026-11-12 14:45:47.616: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-11-12 14:45:47.616: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-11-12 14:45:47.616: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-11-12 14:45:47.843: [INFO] Sync initialization duration: 218ms
+2026-11-12 14:46:36.454: [INFO] CurrentProfilePath: C:\Users\DATASOFT\Downloads\Portfolio\My Portfolio\.edge-temp-profile\Default
+2026-11-12 14:46:36.454: [INFO] Profiles total count: 1
+2026-11-12 14:46:36.454: [INFO] Profile: name=Personal path=C:\Users\DATASOFT\Downloads\Portfolio\My Portfolio\.edge-temp-profile\Default lastActive=2026-11-12T14:45:47.539Z
+2026-11-12 14:46:36.454: [INFO] LastUsedProfileDir: C:\Users\DATASOFT\Downloads\Portfolio\My Portfolio\.edge-temp-profile\Default
+2026-11-12 14:46:36.454: [INFO] MostRecentlyActiveProfile: name=Personal path=C:\Users\DATASOFT\Downloads\Portfolio\My Portfolio\.edge-temp-profile\Default lastActive=2026-11-12T14:45:47.539Z
+2026-11-12 14:46:36.454: [INFO] VisibilityChanged: 0
+2026-11-12 14:46:36.560: [INFO] OnDoneLoading sync enabled: 1
+2026-11-12 14:46:36.560: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-11-12 14:46:36.560: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-11-12 14:46:36.560: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-11-12 14:46:36.917: [INFO] Sync initialization duration: 349ms
+2026-11-12 14:48:14.263: [INFO] CurrentProfilePath: C:\Users\DATASOFT\Downloads\Portfolio\My Portfolio\.edge-temp-profile\Default
+2026-11-12 14:48:14.263: [INFO] Profiles total count: 1
+2026-11-12 14:48:14.263: [INFO] Profile: name=Personal path=C:\Users\DATASOFT\Downloads\Portfolio\My Portfolio\.edge-temp-profile\Default lastActive=2026-11-12T14:46:36.473Z
+2026-11-12 14:48:14.263: [INFO] LastUsedProfileDir: C:\Users\DATASOFT\Downloads\Portfolio\My Portfolio\.edge-temp-profile\Default
+2026-11-12 14:48:14.263: [INFO] MostRecentlyActiveProfile: name=Personal path=C:\Users\DATASOFT\Downloads\Portfolio\My Portfolio\.edge-temp-profile\Default lastActive=2026-11-12T14:46:36.473Z
+2026-11-12 14:48:14.263: [INFO] VisibilityChanged: 0
+2026-11-12 14:48:14.379: [INFO] OnDoneLoading sync enabled: 1
+2026-11-12 14:48:14.379: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-11-12 14:48:14.379: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-11-12 14:48:14.379: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-11-12 14:48:14.754: [INFO] Sync initialization duration: 367ms

@@ -1,0 +1,954 @@
+{
+  "tokenfi/01-800.webp": {
+    "width": 800,
+    "height": 450
+  },
+  "tokenfi/01-1600.webp": {
+    "width": 1600,
+    "height": 900
+  },
+  "tokenfi/02-800.webp": {
+    "width": 600,
+    "height": 542
+  },
+  "tokenfi/02-1600.webp": {
+    "width": 600,
+    "height": 542
+  },
+  "tokenfi/03-800.webp": {
+    "width": 592,
+    "height": 682
+  },
+  "tokenfi/03-1600.webp": {
+    "width": 592,
+    "height": 682
+  },
+  "photo-compositing/01-800.webp": {
+    "width": 736,
+    "height": 828
+  },
+  "photo-compositing/01-1600.webp": {
+    "width": 736,
+    "height": 828
+  },
+  "photo-compositing/02-800.webp": {
+    "width": 736,
+    "height": 920
+  },
+  "photo-compositing/02-1600.webp": {
+    "width": 736,
+    "height": 920
+  },
+  "photo-compositing/03-800.webp": {
+    "width": 736,
+    "height": 828
+  },
+  "photo-compositing/03-1600.webp": {
+    "width": 736,
+    "height": 828
+  },
+  "photo-compositing/04-800.webp": {
+    "width": 736,
+    "height": 935
+  },
+  "photo-compositing/04-1600.webp": {
+    "width": 736,
+    "height": 935
+  },
+  "photo-compositing/05-800.webp": {
+    "width": 735,
+    "height": 950
+  },
+  "photo-compositing/05-1600.webp": {
+    "width": 735,
+    "height": 950
+  },
+  "photo-compositing/06-800.webp": {
+    "width": 736,
+    "height": 1103
+  },
+  "photo-compositing/06-1600.webp": {
+    "width": 736,
+    "height": 1103
+  },
+  "photo-compositing/07-800.webp": {
+    "width": 736,
+    "height": 1472
+  },
+  "photo-compositing/07-1600.webp": {
+    "width": 736,
+    "height": 1472
+  },
+  "photo-compositing/08-800.webp": {
+    "width": 800,
+    "height": 800
+  },
+  "photo-compositing/08-1600.webp": {
+    "width": 1600,
+    "height": 1600
+  },
+  "portrait-retouching/01-800.webp": {
+    "width": 800,
+    "height": 600
+  },
+  "portrait-retouching/01-1600.webp": {
+    "width": 1600,
+    "height": 1200
+  },
+  "portrait-retouching/02-800.webp": {
+    "width": 800,
+    "height": 928
+  },
+  "portrait-retouching/02-1600.webp": {
+    "width": 1600,
+    "height": 1856
+  },
+  "portrait-retouching/03-800.webp": {
+    "width": 800,
+    "height": 928
+  },
+  "portrait-retouching/03-1600.webp": {
+    "width": 1600,
+    "height": 1856
+  },
+  "portrait-retouching/04-800.webp": {
+    "width": 735,
+    "height": 919
+  },
+  "portrait-retouching/04-1600.webp": {
+    "width": 735,
+    "height": 919
+  },
+  "portrait-retouching/05-800.webp": {
+    "width": 735,
+    "height": 919
+  },
+  "portrait-retouching/05-1600.webp": {
+    "width": 735,
+    "height": 919
+  },
+  "portrait-retouching/06-800.webp": {
+    "width": 735,
+    "height": 919
+  },
+  "portrait-retouching/06-1600.webp": {
+    "width": 735,
+    "height": 919
+  },
+  "portrait-retouching/07-800.webp": {
+    "width": 735,
+    "height": 919
+  },
+  "portrait-retouching/07-1600.webp": {
+    "width": 735,
+    "height": 919
+  },
+  "portrait-retouching/08-800.webp": {
+    "width": 735,
+    "height": 919
+  },
+  "portrait-retouching/08-1600.webp": {
+    "width": 735,
+    "height": 919
+  },
+  "portrait-retouching/09-800.webp": {
+    "width": 800,
+    "height": 928
+  },
+  "portrait-retouching/09-1600.webp": {
+    "width": 1600,
+    "height": 1856
+  },
+  "portrait-retouching/10-800.webp": {
+    "width": 736,
+    "height": 920
+  },
+  "portrait-retouching/10-1600.webp": {
+    "width": 736,
+    "height": 920
+  },
+  "portrait-retouching/11-800.webp": {
+    "width": 736,
+    "height": 920
+  },
+  "portrait-retouching/11-1600.webp": {
+    "width": 736,
+    "height": 920
+  },
+  "portrait-retouching/12-800.webp": {
+    "width": 736,
+    "height": 920
+  },
+  "portrait-retouching/12-1600.webp": {
+    "width": 736,
+    "height": 920
+  },
+  "portrait-retouching/13-800.webp": {
+    "width": 736,
+    "height": 920
+  },
+  "portrait-retouching/13-1600.webp": {
+    "width": 736,
+    "height": 920
+  },
+  "portrait-retouching/14-800.webp": {
+    "width": 800,
+    "height": 928
+  },
+  "portrait-retouching/14-1600.webp": {
+    "width": 1600,
+    "height": 1856
+  },
+  "portrait-retouching/15-800.webp": {
+    "width": 736,
+    "height": 981
+  },
+  "portrait-retouching/15-1600.webp": {
+    "width": 736,
+    "height": 981
+  },
+  "portrait-retouching/16-800.webp": {
+    "width": 736,
+    "height": 981
+  },
+  "portrait-retouching/16-1600.webp": {
+    "width": 736,
+    "height": 981
+  },
+  "portrait-retouching/17-800.webp": {
+    "width": 736,
+    "height": 981
+  },
+  "portrait-retouching/17-1600.webp": {
+    "width": 736,
+    "height": 981
+  },
+  "portrait-retouching/18-800.webp": {
+    "width": 735,
+    "height": 976
+  },
+  "portrait-retouching/18-1600.webp": {
+    "width": 735,
+    "height": 976
+  },
+  "portrait-retouching/19-800.webp": {
+    "width": 735,
+    "height": 976
+  },
+  "portrait-retouching/19-1600.webp": {
+    "width": 735,
+    "height": 976
+  },
+  "portrait-retouching/20-800.webp": {
+    "width": 800,
+    "height": 928
+  },
+  "portrait-retouching/20-1600.webp": {
+    "width": 1600,
+    "height": 1856
+  },
+  "portrait-retouching/21-800.webp": {
+    "width": 736,
+    "height": 981
+  },
+  "portrait-retouching/21-1600.webp": {
+    "width": 736,
+    "height": 981
+  },
+  "portrait-retouching/22-800.webp": {
+    "width": 736,
+    "height": 981
+  },
+  "portrait-retouching/22-1600.webp": {
+    "width": 736,
+    "height": 981
+  },
+  "portrait-retouching/23-800.webp": {
+    "width": 736,
+    "height": 981
+  },
+  "portrait-retouching/23-1600.webp": {
+    "width": 736,
+    "height": 981
+  },
+  "portrait-retouching/24-800.webp": {
+    "width": 736,
+    "height": 981
+  },
+  "portrait-retouching/24-1600.webp": {
+    "width": 736,
+    "height": 981
+  },
+  "portrait-retouching/25-800.webp": {
+    "width": 800,
+    "height": 928
+  },
+  "portrait-retouching/25-1600.webp": {
+    "width": 1600,
+    "height": 1856
+  },
+  "portrait-retouching/26-800.webp": {
+    "width": 736,
+    "height": 920
+  },
+  "portrait-retouching/26-1600.webp": {
+    "width": 736,
+    "height": 920
+  },
+  "portrait-retouching/27-800.webp": {
+    "width": 736,
+    "height": 920
+  },
+  "portrait-retouching/27-1600.webp": {
+    "width": 736,
+    "height": 920
+  },
+  "portrait-retouching/28-800.webp": {
+    "width": 736,
+    "height": 920
+  },
+  "portrait-retouching/28-1600.webp": {
+    "width": 736,
+    "height": 920
+  },
+  "portrait-retouching/29-800.webp": {
+    "width": 736,
+    "height": 920
+  },
+  "portrait-retouching/29-1600.webp": {
+    "width": 736,
+    "height": 920
+  },
+  "portrait-retouching/30-800.webp": {
+    "width": 736,
+    "height": 920
+  },
+  "portrait-retouching/30-1600.webp": {
+    "width": 736,
+    "height": 920
+  },
+  "portrait-retouching/31-800.webp": {
+    "width": 800,
+    "height": 1000
+  },
+  "portrait-retouching/31-1600.webp": {
+    "width": 1600,
+    "height": 2000
+  },
+  "kedolikswap/01-800.webp": {
+    "width": 800,
+    "height": 928
+  },
+  "kedolikswap/01-1600.webp": {
+    "width": 1600,
+    "height": 1855
+  },
+  "kedolikswap/02-800.webp": {
+    "width": 800,
+    "height": 928
+  },
+  "kedolikswap/02-1600.webp": {
+    "width": 1600,
+    "height": 1855
+  },
+  "kedolikswap/03-800.webp": {
+    "width": 800,
+    "height": 800
+  },
+  "kedolikswap/03-1600.webp": {
+    "width": 1600,
+    "height": 1600
+  },
+  "kedolikswap/04-800.webp": {
+    "width": 800,
+    "height": 800
+  },
+  "kedolikswap/04-1600.webp": {
+    "width": 1600,
+    "height": 1600
+  },
+  "kedolikswap/05-800.webp": {
+    "width": 800,
+    "height": 800
+  },
+  "kedolikswap/05-1600.webp": {
+    "width": 1600,
+    "height": 1600
+  },
+  "kedolikswap/06-800.webp": {
+    "width": 800,
+    "height": 800
+  },
+  "kedolikswap/06-1600.webp": {
+    "width": 1600,
+    "height": 1600
+  },
+  "kedolikswap/07-800.webp": {
+    "width": 800,
+    "height": 800
+  },
+  "kedolikswap/07-1600.webp": {
+    "width": 1600,
+    "height": 1600
+  },
+  "kedolikswap/08-800.webp": {
+    "width": 800,
+    "height": 800
+  },
+  "kedolikswap/08-1600.webp": {
+    "width": 1600,
+    "height": 1600
+  },
+  "kedolikswap/09-800.webp": {
+    "width": 800,
+    "height": 800
+  },
+  "kedolikswap/09-1600.webp": {
+    "width": 1600,
+    "height": 1600
+  },
+  "sqwad/01-800.webp": {
+    "width": 800,
+    "height": 800
+  },
+  "sqwad/01-1600.webp": {
+    "width": 1600,
+    "height": 1600
+  },
+  "sqwad/02-800.webp": {
+    "width": 800,
+    "height": 800
+  },
+  "sqwad/02-1600.webp": {
+    "width": 1600,
+    "height": 1600
+  },
+  "sqwad/03-800.webp": {
+    "width": 800,
+    "height": 800
+  },
+  "sqwad/03-1600.webp": {
+    "width": 1600,
+    "height": 1600
+  },
+  "sqwad/04-800.webp": {
+    "width": 800,
+    "height": 800
+  },
+  "sqwad/04-1600.webp": {
+    "width": 1600,
+    "height": 1600
+  },
+  "sqwad/05-800.webp": {
+    "width": 800,
+    "height": 427
+  },
+  "sqwad/05-1600.webp": {
+    "width": 1600,
+    "height": 855
+  },
+  "sqwad/06-800.webp": {
+    "width": 800,
+    "height": 800
+  },
+  "sqwad/06-1600.webp": {
+    "width": 1600,
+    "height": 1600
+  },
+  "sqwad/07-800.webp": {
+    "width": 800,
+    "height": 427
+  },
+  "sqwad/07-1600.webp": {
+    "width": 1600,
+    "height": 855
+  },
+  "alphax/01-800.webp": {
+    "width": 800,
+    "height": 528
+  },
+  "alphax/01-1600.webp": {
+    "width": 1002,
+    "height": 661
+  },
+  "alphax/02-800.webp": {
+    "width": 800,
+    "height": 800
+  },
+  "alphax/02-1600.webp": {
+    "width": 1600,
+    "height": 1600
+  },
+  "alphax/03-800.webp": {
+    "width": 800,
+    "height": 800
+  },
+  "alphax/03-1600.webp": {
+    "width": 1600,
+    "height": 1600
+  },
+  "alphax/04-800.webp": {
+    "width": 800,
+    "height": 800
+  },
+  "alphax/04-1600.webp": {
+    "width": 1600,
+    "height": 1600
+  },
+  "alphax/05-800.webp": {
+    "width": 800,
+    "height": 800
+  },
+  "alphax/05-1600.webp": {
+    "width": 1600,
+    "height": 1600
+  },
+  "alphax/06-800.webp": {
+    "width": 800,
+    "height": 800
+  },
+  "alphax/06-1600.webp": {
+    "width": 1600,
+    "height": 1600
+  },
+  "church-photography/01-800.webp": {
+    "width": 720,
+    "height": 480
+  },
+  "church-photography/01-1600.webp": {
+    "width": 720,
+    "height": 480
+  },
+  "church-photography/02-800.webp": {
+    "width": 720,
+    "height": 551
+  },
+  "church-photography/02-1600.webp": {
+    "width": 720,
+    "height": 551
+  },
+  "church-photography/03-800.webp": {
+    "width": 720,
+    "height": 566
+  },
+  "church-photography/03-1600.webp": {
+    "width": 720,
+    "height": 566
+  },
+  "church-photography/04-800.webp": {
+    "width": 720,
+    "height": 480
+  },
+  "church-photography/04-1600.webp": {
+    "width": 720,
+    "height": 480
+  },
+  "church-photography/05-800.webp": {
+    "width": 720,
+    "height": 617
+  },
+  "church-photography/05-1600.webp": {
+    "width": 720,
+    "height": 617
+  },
+  "church-photography/06-800.webp": {
+    "width": 720,
+    "height": 480
+  },
+  "church-photography/06-1600.webp": {
+    "width": 720,
+    "height": 480
+  },
+  "church-photography/07-800.webp": {
+    "width": 720,
+    "height": 576
+  },
+  "church-photography/07-1600.webp": {
+    "width": 720,
+    "height": 576
+  },
+  "church-photography/08-800.webp": {
+    "width": 720,
+    "height": 366
+  },
+  "church-photography/08-1600.webp": {
+    "width": 720,
+    "height": 366
+  },
+  "church-photography/09-800.webp": {
+    "width": 720,
+    "height": 480
+  },
+  "church-photography/09-1600.webp": {
+    "width": 720,
+    "height": 480
+  },
+  "church-photography/10-800.webp": {
+    "width": 720,
+    "height": 480
+  },
+  "church-photography/10-1600.webp": {
+    "width": 720,
+    "height": 480
+  },
+  "church-photography/11-800.webp": {
+    "width": 720,
+    "height": 459
+  },
+  "church-photography/11-1600.webp": {
+    "width": 720,
+    "height": 459
+  },
+  "church-photography/12-800.webp": {
+    "width": 720,
+    "height": 530
+  },
+  "church-photography/12-1600.webp": {
+    "width": 720,
+    "height": 530
+  },
+  "church-photography/13-800.webp": {
+    "width": 720,
+    "height": 480
+  },
+  "church-photography/13-1600.webp": {
+    "width": 720,
+    "height": 480
+  },
+  "church-photography/14-800.webp": {
+    "width": 720,
+    "height": 480
+  },
+  "church-photography/14-1600.webp": {
+    "width": 720,
+    "height": 480
+  },
+  "church-photography/15-800.webp": {
+    "width": 720,
+    "height": 481
+  },
+  "church-photography/15-1600.webp": {
+    "width": 720,
+    "height": 481
+  },
+  "church-photography/16-800.webp": {
+    "width": 720,
+    "height": 481
+  },
+  "church-photography/16-1600.webp": {
+    "width": 720,
+    "height": 481
+  },
+  "church-photography/17-800.webp": {
+    "width": 720,
+    "height": 481
+  },
+  "church-photography/17-1600.webp": {
+    "width": 720,
+    "height": 481
+  },
+  "church-photography/18-800.webp": {
+    "width": 720,
+    "height": 481
+  },
+  "church-photography/18-1600.webp": {
+    "width": 720,
+    "height": 481
+  },
+  "church-photography/19-800.webp": {
+    "width": 720,
+    "height": 481
+  },
+  "church-photography/19-1600.webp": {
+    "width": 720,
+    "height": 481
+  },
+  "church-photography/20-800.webp": {
+    "width": 720,
+    "height": 481
+  },
+  "church-photography/20-1600.webp": {
+    "width": 720,
+    "height": 481
+  },
+  "church-photography/21-800.webp": {
+    "width": 720,
+    "height": 481
+  },
+  "church-photography/21-1600.webp": {
+    "width": 720,
+    "height": 481
+  },
+  "church-photography/22-800.webp": {
+    "width": 720,
+    "height": 481
+  },
+  "church-photography/22-1600.webp": {
+    "width": 720,
+    "height": 481
+  },
+  "church-photography/23-800.webp": {
+    "width": 720,
+    "height": 481
+  },
+  "church-photography/23-1600.webp": {
+    "width": 720,
+    "height": 481
+  },
+  "church-photography/24-800.webp": {
+    "width": 720,
+    "height": 481
+  },
+  "church-photography/24-1600.webp": {
+    "width": 720,
+    "height": 481
+  },
+  "church-photography/25-800.webp": {
+    "width": 720,
+    "height": 481
+  },
+  "church-photography/25-1600.webp": {
+    "width": 720,
+    "height": 481
+  },
+  "church-photography/26-800.webp": {
+    "width": 720,
+    "height": 481
+  },
+  "church-photography/26-1600.webp": {
+    "width": 720,
+    "height": 481
+  },
+  "medigo/01-800.webp": {
+    "width": 800,
+    "height": 800
+  },
+  "medigo/01-1600.webp": {
+    "width": 1600,
+    "height": 1600
+  },
+  "medigo/02-800.webp": {
+    "width": 800,
+    "height": 800
+  },
+  "medigo/02-1600.webp": {
+    "width": 1600,
+    "height": 1600
+  },
+  "medigo/03-800.webp": {
+    "width": 800,
+    "height": 800
+  },
+  "medigo/03-1600.webp": {
+    "width": 1600,
+    "height": 1600
+  },
+  "medigo/04-800.webp": {
+    "width": 800,
+    "height": 800
+  },
+  "medigo/04-1600.webp": {
+    "width": 1600,
+    "height": 1600
+  },
+  "medigo/05-800.webp": {
+    "width": 800,
+    "height": 800
+  },
+  "medigo/05-1600.webp": {
+    "width": 1600,
+    "height": 1600
+  },
+  "peec-graphics/01-800.webp": {
+    "width": 800,
+    "height": 462
+  },
+  "peec-graphics/01-1600.webp": {
+    "width": 1600,
+    "height": 925
+  },
+  "peec-graphics/02-800.webp": {
+    "width": 800,
+    "height": 800
+  },
+  "peec-graphics/02-1600.webp": {
+    "width": 1600,
+    "height": 1600
+  },
+  "church-posters/01-800.webp": {
+    "width": 800,
+    "height": 800
+  },
+  "church-posters/01-1600.webp": {
+    "width": 1600,
+    "height": 1600
+  },
+  "church-posters/02-800.webp": {
+    "width": 800,
+    "height": 901
+  },
+  "church-posters/02-1600.webp": {
+    "width": 1600,
+    "height": 1802
+  },
+  "church-posters/03-800.webp": {
+    "width": 800,
+    "height": 1033
+  },
+  "church-posters/03-1600.webp": {
+    "width": 1600,
+    "height": 2066
+  },
+  "church-posters/04-800.webp": {
+    "width": 800,
+    "height": 890
+  },
+  "church-posters/04-1600.webp": {
+    "width": 1600,
+    "height": 1781
+  },
+  "church-posters/05-800.webp": {
+    "width": 800,
+    "height": 1120
+  },
+  "church-posters/05-1600.webp": {
+    "width": 1600,
+    "height": 2240
+  },
+  "birthday-posters/01-800.webp": {
+    "width": 800,
+    "height": 1000
+  },
+  "birthday-posters/01-1600.webp": {
+    "width": 1600,
+    "height": 2000
+  },
+  "birthday-posters/02-800.webp": {
+    "width": 800,
+    "height": 943
+  },
+  "birthday-posters/02-1600.webp": {
+    "width": 1600,
+    "height": 1887
+  },
+  "social-and-event-graphics/01-800.webp": {
+    "width": 800,
+    "height": 800
+  },
+  "social-and-event-graphics/01-1600.webp": {
+    "width": 1600,
+    "height": 1600
+  },
+  "social-and-event-graphics/02-800.webp": {
+    "width": 800,
+    "height": 533
+  },
+  "social-and-event-graphics/02-1600.webp": {
+    "width": 1600,
+    "height": 1066
+  },
+  "social-and-event-graphics/03-800.webp": {
+    "width": 800,
+    "height": 1000
+  },
+  "social-and-event-graphics/03-1600.webp": {
+    "width": 1600,
+    "height": 2000
+  },
+  "social-and-event-graphics/04-800.webp": {
+    "width": 800,
+    "height": 893
+  },
+  "social-and-event-graphics/04-1600.webp": {
+    "width": 1600,
+    "height": 1786
+  },
+  "social-and-event-graphics/05-800.webp": {
+    "width": 800,
+    "height": 800
+  },
+  "social-and-event-graphics/05-1600.webp": {
+    "width": 1600,
+    "height": 1600
+  },
+  "social-and-event-graphics/06-800.webp": {
+    "width": 800,
+    "height": 800
+  },
+  "social-and-event-graphics/06-1600.webp": {
+    "width": 1600,
+    "height": 1600
+  },
+  "social-and-event-graphics/07-800.webp": {
+    "width": 800,
+    "height": 800
+  },
+  "social-and-event-graphics/07-1600.webp": {
+    "width": 1600,
+    "height": 1600
+  },
+  "social-and-event-graphics/08-800.webp": {
+    "width": 800,
+    "height": 800
+  },
+  "social-and-event-graphics/08-1600.webp": {
+    "width": 1600,
+    "height": 1600
+  },
+  "social-and-event-graphics/09-800.webp": {
+    "width": 800,
+    "height": 977
+  },
+  "social-and-event-graphics/09-1600.webp": {
+    "width": 1600,
+    "height": 1954
+  },
+  "social-and-event-graphics/10-800.webp": {
+    "width": 800,
+    "height": 800
+  },
+  "social-and-event-graphics/10-1600.webp": {
+    "width": 1600,
+    "height": 1600
+  },
+  "social-and-event-graphics/11-800.webp": {
+    "width": 800,
+    "height": 909
+  },
+  "social-and-event-graphics/11-1600.webp": {
+    "width": 1600,
+    "height": 1818
+  },
+  "social-and-event-graphics/12-800.webp": {
+    "width": 800,
+    "height": 800
+  },
+  "social-and-event-graphics/12-1600.webp": {
+    "width": 1600,
+    "height": 1600
+  },
+  "social-and-event-graphics/13-800.webp": {
+    "width": 800,
+    "height": 1000
+  },
+  "social-and-event-graphics/13-1600.webp": {
+    "width": 1600,
+    "height": 2000
+  },
+  "social-and-event-graphics/14-800.webp": {
+    "width": 800,
+    "height": 893
+  },
+  "social-and-event-graphics/14-1600.webp": {
+    "width": 1600,
+    "height": 1786
+  },
+  "social-and-event-graphics/15-800.webp": {
+    "width": 800,
+    "height": 450
+  },
+  "social-and-event-graphics/15-1600.webp": {
+    "width": 1600,
+    "height": 900
+  }
+}

@@ -1,0 +1,16 @@
+2026-11-12 15:04:36.375: [INFO] CurrentProfilePath: C:\Users\DATASOFT\Downloads\Portfolio\My Portfolio\.edge-temp-profile-nav\Default
+2026-11-12 15:04:36.375: [INFO] Profiles total count: 1
+2026-11-12 15:04:36.375: [INFO] Profile: name=Profile 1 path=C:\Users\DATASOFT\Downloads\Portfolio\My Portfolio\.edge-temp-profile-nav\Default lastActive=null
+2026-11-12 15:04:36.375: [INFO] LastUsedProfileDir: C:\Users\DATASOFT\Downloads\Portfolio\My Portfolio\.edge-temp-profile-nav\Default
+2026-11-12 15:04:36.375: [INFO] VisibilityChanged: 0
+2026-11-12 15:04:36.433: [INFO] OnDoneLoading sync enabled: 0
+2026-11-12 15:04:36.433: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-11-12 15:04:36.433: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-11-12 15:04:36.433: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-11-12 15:04:36.545: [INFO] RecordSyncInitDuration has_sync_been_enabled: 0 state: 0
+2026-11-12 15:04:40.171: [INFO] RecordSyncInitDuration has_sync_been_enabled: 0 state: 0
+2026-11-12 15:04:40.189: [INFO] RecordSyncInitDuration has_sync_been_enabled: 0 state: 3
+2026-11-12 15:04:40.200: [INFO] Primary account changed.
+2026-11-12 15:04:40.200: [INFO] OnPrimaryAccountChanged PrimaryAccountChangeEvent::Type::kSet
+2026-11-12 15:04:40.245: [INFO] RecordSyncInitDuration has_sync_been_enabled: 0 state: 3
+2026-11-12 15:04:40.300: [INFO] RecordSyncInitDuration has_sync_been_enabled: 0 state: 3

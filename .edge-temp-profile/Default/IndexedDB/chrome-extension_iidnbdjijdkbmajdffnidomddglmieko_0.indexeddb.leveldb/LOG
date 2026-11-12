@@ -1,0 +1,13 @@
+2026/11/12-15:48:14.999 1bc8 Reusing MANIFEST C:\Users\DATASOFT\Downloads\Portfolio\My Portfolio\.edge-temp-profile\Default\IndexedDB\chrome-extension_iidnbdjijdkbmajdffnidomddglmieko_0.indexeddb.leveldb/MANIFEST-000001
+2026/11/12-15:48:15.000 1bc8 Recovering log #7
+2026/11/12-15:48:15.000 1bc8 Reusing old log C:\Users\DATASOFT\Downloads\Portfolio\My Portfolio\.edge-temp-profile\Default\IndexedDB\chrome-extension_iidnbdjijdkbmajdffnidomddglmieko_0.indexeddb.leveldb/000007.log 
+2026/11/12-15:48:15.017 440c Level-0 table #11: started
+2026/11/12-15:48:15.019 440c Level-0 table #11: 1424 bytes OK
+2026/11/12-15:48:15.021 440c Delete type=0 #7
+2026/11/12-15:48:15.022 440c Manual compaction at level-0 from '\x00\x0d\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x0e\x00\x00\x00' @ 0 : 0; will stop at '\x00\x0d\x00\x00\x05' @ 1086 : 1
+2026/11/12-15:48:15.022 440c Compacting 1@0 + 1@1 files
+2026/11/12-15:48:15.026 440c Generated table #12@0: 421 keys, 5445 bytes
+2026/11/12-15:48:15.026 440c Compacted 1@0 + 1@1 files => 5445 bytes
+2026/11/12-15:48:15.027 440c compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/11/12-15:48:15.028 440c Delete type=2 #11
+2026/11/12-15:48:15.029 4b1c Manual compaction at level-0 from '\x00\x0d\x00\x00\x05' @ 1086 : 1 .. '\x00\x0e\x00\x00\x00' @ 0 : 0; will stop at (end)

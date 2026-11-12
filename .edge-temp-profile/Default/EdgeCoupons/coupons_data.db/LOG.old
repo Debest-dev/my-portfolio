@@ -1,0 +1,6 @@
+2026/11/12-15:46:38.724 4b9c Reusing MANIFEST C:\Users\DATASOFT\Downloads\Portfolio\My Portfolio\.edge-temp-profile\Default\EdgeCoupons/coupons_data.db/MANIFEST-000001
+2026/11/12-15:46:38.725 4b9c Recovering log #23
+2026/11/12-15:46:38.726 4b9c Reusing old log C:\Users\DATASOFT\Downloads\Portfolio\My Portfolio\.edge-temp-profile\Default\EdgeCoupons/coupons_data.db/000023.log 
+2026/11/12-15:46:40.110 4324 Level-0 table #27: started
+2026/11/12-15:46:40.117 4324 Level-0 table #27: 683526 bytes OK
+2026/11/12-15:46:40.119 4324 Delete type=0 #23

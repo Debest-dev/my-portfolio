@@ -1,0 +1,7 @@
+2026/11/12-15:46:37.133 2248 Reusing MANIFEST C:\Users\DATASOFT\Downloads\Portfolio\My Portfolio\.edge-temp-profile\Default\IndexedDB\chrome-extension_iidnbdjijdkbmajdffnidomddglmieko_0.indexeddb.leveldb/MANIFEST-000001
+2026/11/12-15:46:37.134 2248 Recovering log #4
+2026/11/12-15:46:37.135 2248 Reusing old log C:\Users\DATASOFT\Downloads\Portfolio\My Portfolio\.edge-temp-profile\Default\IndexedDB\chrome-extension_iidnbdjijdkbmajdffnidomddglmieko_0.indexeddb.leveldb/000004.log 
+2026/11/12-15:46:37.164 3aec Level-0 table #8: started
+2026/11/12-15:46:37.167 3aec Level-0 table #8: 9484 bytes OK
+2026/11/12-15:46:37.170 3aec Delete type=0 #4
+2026/11/12-15:46:37.171 2248 Manual compaction at level-0 from '\x00\x0c\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x0d\x00\x00\x00' @ 0 : 0; will stop at (end)
