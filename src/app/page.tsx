@@ -4,6 +4,7 @@ import { Hero } from "@/components/Hero";
 import { ProjectStrip } from "@/components/ProjectStrip";
 import { About } from "@/components/About";
 import { ProjectGrid } from "@/components/ProjectGrid";
+import { ProcessVideo } from "@/components/ProcessVideo";
 import { Services } from "@/components/Services";
 import { Experience } from "@/components/Experience";
 import { Contact } from "@/components/Contact";
@@ -19,6 +20,7 @@ export default function Home() {
         <ProjectStrip />
         <About />
         <ProjectGrid />
+        <ProcessVideo />
         <Services />
         <Experience />
         <Contact />
