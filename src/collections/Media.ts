@@ -64,9 +64,9 @@ export const Media: CollectionConfig = {
     {
       name: 'alt',
       type: 'text',
-      required: true,
+      required: false,
       admin: {
-        description: 'Descriptive text for accessibility and SEO',
+        description: 'Leave blank to use the project name and image number',
       },
     },
   ],

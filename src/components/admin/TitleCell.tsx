@@ -7,8 +7,13 @@ const urlCache = new Map<string | number, string>();
 
 export const TitleCell: React.FC<DefaultCellComponentProps> = ({ cellData, rowData }) => {
   const images = rowData?.images;
-  const firstItem = Array.isArray(images) && images.length > 0 ? images[0] : null;
-  const firstImage = firstItem?.image;
+  const targetItem =
+    Array.isArray(images) && images.length > 0
+      ? rowData?.newestFirst
+        ? images[images.length - 1]
+        : images[0]
+      : null;
+  const firstImage = targetItem?.image;
 
   let initialUrl: string | null = null;
   if (firstImage && typeof firstImage === 'object') {

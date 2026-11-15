@@ -19,9 +19,16 @@ const scrollbarClasses =
 
 export const ProjectDialog: React.FC<ProjectDialogProps> = ({ project, onClose, returnFocusTo }) => {
   const [lightboxIndex, setLightboxIndex] = useState<number | null>(null);
+  const [visibleCount, setVisibleCount] = useState(24);
   const panelRef = useRef<HTMLDivElement>(null);
   const closeRef = useRef<HTMLButtonElement>(null);
   const lightboxOpen = lightboxIndex !== null;
+
+  const hasSummary = Boolean(project.summary && project.summary.trim());
+  const hasTools = Boolean(project.tools && project.tools.length > 0);
+  const hasBullets = Boolean(project.bullets && project.bullets.length > 0);
+  const visibleImages = project.images.slice(0, visibleCount);
+  const hasMore = project.images.length > visibleCount;
 
   useEffect(() => {
     const previousOverflow = document.body.style.overflow;
@@ -98,24 +105,30 @@ export const ProjectDialog: React.FC<ProjectDialogProps> = ({ project, onClose, 
 
           <div className={`min-h-0 flex-1 overflow-y-auto px-4 py-5 md:px-6 ${scrollbarClasses}`}>
             <div className="space-y-5">
-              <p className="text-sm leading-6 text-[var(--muted)]">{project.summary}</p>
+              {hasSummary && (
+                <p className="text-sm leading-6 text-[var(--muted)]">{project.summary}</p>
+              )}
 
-              <div className="flex flex-wrap gap-1.5">
-                {project.tools.map((tool) => (
-                  <span
-                    key={tool}
-                    className="whitespace-nowrap rounded-full border border-[var(--border)] bg-[var(--card)] px-2.5 py-1 text-xs leading-4 text-[var(--muted)]"
-                  >
-                    {tool}
-                  </span>
-                ))}
-              </div>
+              {hasTools && (
+                <div className="flex flex-wrap gap-1.5">
+                  {project.tools.map((tool) => (
+                    <span
+                      key={tool}
+                      className="whitespace-nowrap rounded-full border border-[var(--border)] bg-[var(--card)] px-2.5 py-1 text-xs leading-4 text-[var(--muted)]"
+                    >
+                      {tool}
+                    </span>
+                  ))}
+                </div>
+              )}
 
-              <ul className="list-disc space-y-1.5 pl-4 text-sm leading-6 text-[var(--muted)]">
-                {project.bullets.map((bullet) => (
-                  <li key={bullet}>{bullet}</li>
-                ))}
-              </ul>
+              {hasBullets && (
+                <ul className="list-disc space-y-1.5 pl-4 text-sm leading-6 text-[var(--muted)]">
+                  {project.bullets.map((bullet) => (
+                    <li key={bullet}>{bullet}</li>
+                  ))}
+                </ul>
+              )}
 
               {project.layersScreenshot && (
                 <figure className="space-y-2">
@@ -141,7 +154,7 @@ export const ProjectDialog: React.FC<ProjectDialogProps> = ({ project, onClose, 
               )}
 
               <div className="columns-2 gap-3 md:columns-3 md:gap-4">
-                {project.images.map((image, i) => {
+                {visibleImages.map((image, i) => {
                   const variants =
                     image.variants && image.variants.length > 0
                       ? image.variants
@@ -177,6 +190,18 @@ export const ProjectDialog: React.FC<ProjectDialogProps> = ({ project, onClose, 
                   );
                 })}
               </div>
+
+              {hasMore && (
+                <div className="pt-2 pb-4 text-center">
+                  <button
+                    type="button"
+                    onClick={() => setVisibleCount((prev) => prev + 24)}
+                    className="inline-flex h-11 items-center justify-center rounded-full border border-[var(--border)] bg-[var(--card)] px-6 text-xs font-medium text-[var(--text)] transition-colors hover:border-[var(--accent)] hover:text-[var(--accent)] md:h-10"
+                  >
+                    Show more
+                  </button>
+                </div>
+              )}
             </div>
           </div>
         </div>

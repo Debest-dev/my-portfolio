@@ -21,6 +21,7 @@ export interface WorkProject {
   coverCrop?: "bottom-half";
   coverFit?: "contain";
   images: WorkImage[];
+  newestFirst?: boolean;
   layersScreenshot?: string;
   screenRecording?: { src: string; poster: string };
 }
@@ -41,9 +42,10 @@ export function imageVariants(slug: string, file: string): ImageVariant[] {
 }
 
 export function imageAlt(project: WorkProject, image: WorkImage): string {
-  if (image.caption) return `${project.title} - ${image.caption}`;
   const n = project.images.indexOf(image) + 1;
-  return `${project.title} - image ${n} of ${project.images.length}`;
+  const base = `${project.title} – image ${n} of ${project.images.length}`;
+  if (image.caption) return `${base} - ${image.caption}`;
+  return base;
 }
 
 const range = (from: number, to: number, caption?: string): WorkImage[] =>

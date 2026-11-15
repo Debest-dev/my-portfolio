@@ -30,6 +30,9 @@ export const WorkCard: React.FC<WorkCardProps> = ({ project, index, onOpen }) =>
   const coverClass = bottomHalf
     ? "absolute inset-x-0 bottom-0 h-[200%] w-full object-cover"
     : `absolute inset-0 h-full w-full ${contain ? "object-contain" : "object-cover"}`;
+  const hasSummary = Boolean(project.summary && project.summary.trim());
+  const hasTools = Boolean(project.tools && project.tools.length > 0);
+  const hasBullets = Boolean(project.bullets && project.bullets.length > 0);
   const shownTools = project.tools.slice(0, 3);
   const extraTools = project.tools.length - shownTools.length;
 
@@ -65,53 +68,63 @@ export const WorkCard: React.FC<WorkCardProps> = ({ project, index, onOpen }) =>
         </span>
       </button>
 
-      <p className="line-clamp-2 min-h-10 text-xs leading-5 text-[var(--muted)]">{project.summary}</p>
-
-      <div className="flex h-7 items-center gap-1.5 overflow-hidden">
-        {shownTools.map((tool) => (
-          <span
-            key={tool}
-            className="min-w-0 truncate whitespace-nowrap rounded-full border border-[var(--border)] bg-[var(--bg-alt)] px-2.5 py-1 text-xs leading-4 text-[var(--muted)]"
-            title={tool}
-          >
-            {tool}
-          </span>
-        ))}
-        {extraTools > 0 && (
-          <span className="flex-shrink-0 whitespace-nowrap rounded-full border border-[var(--border)] bg-[var(--bg-alt)] px-2.5 py-1 text-xs leading-4 text-[var(--muted)]">
-            +{extraTools}
-          </span>
+      <div className="flex flex-1 flex-col space-y-3 min-h-[136px] md:min-h-[128px]">
+        {hasSummary && (
+          <p className="line-clamp-2 min-h-10 text-xs leading-5 text-[var(--muted)]">{project.summary}</p>
         )}
-      </div>
 
-      <button
-        type="button"
-        onClick={() => setExpanded((v) => !v)}
-        aria-expanded={expanded}
-        aria-controls={panelId}
-        className="flex h-11 w-full flex-shrink-0 items-center justify-center gap-1.5 rounded-full border border-[var(--border)] bg-[var(--card)] text-xs font-medium text-[var(--muted)] transition-colors hover:text-[var(--text)] md:h-9"
-      >
-        View process
-        <ChevronDown
-          className={`h-3.5 w-3.5 transition-transform duration-300 ${expanded ? "rotate-180" : ""}`}
-          aria-hidden="true"
-        />
-      </button>
-
-      <div
-        id={panelId}
-        aria-hidden={!expanded}
-        className={`grid transition-[grid-template-rows] duration-300 ease-out ${
-          expanded ? "grid-rows-[1fr]" : "grid-rows-[0fr]"
-        }`}
-      >
-        <div className="overflow-hidden">
-          <ul className="list-disc space-y-1.5 pl-4 pt-1 text-xs leading-5 text-[var(--muted)]">
-            {project.bullets.map((bullet) => (
-              <li key={bullet}>{bullet}</li>
+        {hasTools && (
+          <div className="flex h-7 items-center gap-1.5 overflow-hidden">
+            {shownTools.map((tool) => (
+              <span
+                key={tool}
+                className="min-w-0 truncate whitespace-nowrap rounded-full border border-[var(--border)] bg-[var(--bg-alt)] px-2.5 py-1 text-xs leading-4 text-[var(--muted)]"
+                title={tool}
+              >
+                {tool}
+              </span>
             ))}
-          </ul>
-        </div>
+            {extraTools > 0 && (
+              <span className="flex-shrink-0 whitespace-nowrap rounded-full border border-[var(--border)] bg-[var(--bg-alt)] px-2.5 py-1 text-xs leading-4 text-[var(--muted)]">
+                +{extraTools}
+              </span>
+            )}
+          </div>
+        )}
+
+        {hasBullets && (
+          <>
+            <button
+              type="button"
+              onClick={() => setExpanded((v) => !v)}
+              aria-expanded={expanded}
+              aria-controls={panelId}
+              className="flex h-11 w-full flex-shrink-0 items-center justify-center gap-1.5 rounded-full border border-[var(--border)] bg-[var(--card)] text-xs font-medium text-[var(--muted)] transition-colors hover:text-[var(--text)] md:h-9"
+            >
+              View process
+              <ChevronDown
+                className={`h-3.5 w-3.5 transition-transform duration-300 ${expanded ? "rotate-180" : ""}`}
+                aria-hidden="true"
+              />
+            </button>
+
+            <div
+              id={panelId}
+              aria-hidden={!expanded}
+              className={`grid transition-[grid-template-rows] duration-300 ease-out ${
+                expanded ? "grid-rows-[1fr]" : "grid-rows-[0fr]"
+              }`}
+            >
+              <div className="overflow-hidden">
+                <ul className="list-disc space-y-1.5 pl-4 pt-1 text-xs leading-5 text-[var(--muted)]">
+                  {project.bullets.map((bullet) => (
+                    <li key={bullet}>{bullet}</li>
+                  ))}
+                </ul>
+              </div>
+            </div>
+          </>
+        )}
       </div>
     </article>
   );

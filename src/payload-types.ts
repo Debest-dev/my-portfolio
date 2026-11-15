@@ -152,9 +152,9 @@ export interface User {
 export interface Media {
   id: number;
   /**
-   * Descriptive text for accessibility and SEO
+   * Leave blank to use the project name and image number
    */
-  alt: string;
+  alt?: string | null;
   _objectKey?: string | null;
   updatedAt: string;
   createdAt: string;
@@ -207,7 +207,7 @@ export interface Project {
   /**
    * Brief description or summary of the project
    */
-  summary: string;
+  summary?: string | null;
   /**
    * Key highlights or bullet points for the project
    */
@@ -248,6 +248,10 @@ export interface Project {
    * Optional CSS object-position for the cover (e.g. "center 8%")
    */
   coverPosition?: string | null;
+  /**
+   * Show images in reverse order, so the last one I add appears first
+   */
+  newestFirst?: boolean | null;
   /**
    * Display order (lowest number appears first)
    */
@@ -422,6 +426,7 @@ export interface ProjectsSelect<T extends boolean = true> {
   coverFit?: T;
   coverCrop?: T;
   coverPosition?: T;
+  newestFirst?: T;
   order?: T;
   updatedAt?: T;
   createdAt?: T;

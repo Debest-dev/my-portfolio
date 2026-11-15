@@ -22,15 +22,28 @@ export async function getWorks(): Promise<WorkProject[]> {
       return staticWorks;
     }
 
-    const projects: WorkProject[] = res.docs.map((p: any) => {
-      const images: WorkImage[] = (p.images ?? []).map((imgItem: any, idx: number) => {
+    const validDocs = res.docs.filter(
+      (p: any) => Array.isArray(p.images) && p.images.length > 0
+    );
+
+    if (validDocs.length === 0) {
+      console.warn('Payload returned 0 valid projects with images; falling back to static works data.');
+      return staticWorks;
+    }
+
+    const projects: WorkProject[] = validDocs.map((p: any) => {
+      const isNewestFirst = Boolean(p.newestFirst);
+      const rawImages = isNewestFirst ? [...p.images].reverse() : (p.images ?? []);
+      const totalImages = rawImages.length;
+
+      const images: WorkImage[] = rawImages.map((imgItem: any, idx: number) => {
         const media = typeof imgItem.image === 'object' && imgItem.image !== null ? imgItem.image : null;
         const caption = imgItem.caption || undefined;
+        const baseAlt = `${p.title} – image ${idx + 1} of ${totalImages}`;
         const alt =
-          media?.alt ||
-          (caption
-            ? `${p.title} - ${caption}`
-            : `${p.title} - image ${idx + 1} of ${p.images?.length ?? 1}`);
+          media?.alt?.trim()
+            ? media.alt.trim()
+            : (caption ? `${baseAlt} - ${caption}` : baseAlt);
 
         const variants: ImageVariant[] = [];
         if (media?.sizes?.w800?.url && media?.sizes?.w800?.width && media?.sizes?.w800?.height) {
@@ -66,18 +79,20 @@ export async function getWorks(): Promise<WorkProject[]> {
         };
       });
 
-      const coverIdx =
-        typeof p.coverIndex === 'number' && p.coverIndex >= 1 && p.coverIndex <= images.length
-          ? p.coverIndex - 1
-          : 0;
-
-      const cover = images[coverIdx]?.file ?? (images[0]?.file ?? '01');
+      let cover = images[0]?.file ?? '01';
+      if (!isNewestFirst) {
+        const coverIdx =
+          typeof p.coverIndex === 'number' && p.coverIndex >= 1 && p.coverIndex <= images.length
+            ? p.coverIndex - 1
+            : 0;
+        cover = images[coverIdx]?.file ?? (images[0]?.file ?? '01');
+      }
 
       return {
         slug: p.slug,
         section: p.section,
         title: p.title,
-        summary: p.summary,
+        summary: p.summary || '',
         bullets: p.bullets ?? [],
         tools: p.tools ?? [],
         cover,
@@ -85,6 +100,7 @@ export async function getWorks(): Promise<WorkProject[]> {
         coverCrop: p.coverCrop === 'bottom-half' ? 'bottom-half' : undefined,
         coverFit: p.coverFit === 'contain' ? 'contain' : undefined,
         images,
+        newestFirst: isNewestFirst,
       };
     });
 

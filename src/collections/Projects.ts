@@ -39,17 +39,17 @@ export const Projects: CollectionConfig = {
     afterRead: [
       async ({ doc, req }) => {
         if (doc && Array.isArray(doc.images) && doc.images.length > 0) {
-          const first = doc.images[0];
-          if (first && (typeof first.image === 'number' || typeof first.image === 'string')) {
+          const target = doc.newestFirst ? doc.images[doc.images.length - 1] : doc.images[0];
+          if (target && (typeof target.image === 'number' || typeof target.image === 'string')) {
             try {
               const media = await req.payload.findByID({
                 collection: 'media',
-                id: first.image,
+                id: target.image,
                 depth: 0,
                 req,
               });
               if (media) {
-                first.image = media;
+                target.image = media;
               }
             } catch {}
           }
@@ -90,7 +90,6 @@ export const Projects: CollectionConfig = {
     {
       name: 'summary',
       type: 'textarea',
-      required: true,
       admin: {
         description: 'Brief description or summary of the project',
       },
@@ -167,6 +166,14 @@ export const Projects: CollectionConfig = {
       type: 'text',
       admin: {
         description: 'Optional CSS object-position for the cover (e.g. "center 8%")',
+      },
+    },
+    {
+      name: 'newestFirst',
+      type: 'checkbox',
+      defaultValue: false,
+      admin: {
+        description: 'Show images in reverse order, so the last one I add appears first',
       },
     },
     {
