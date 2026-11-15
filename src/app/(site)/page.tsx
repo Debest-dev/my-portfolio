@@ -9,8 +9,13 @@ import { Services } from "@/components/Services";
 import { Experience } from "@/components/Experience";
 import { Contact } from "@/components/Contact";
 import { Footer } from "@/components/Footer";
+import { getWorks } from "@/lib/payloadWorks";
 
-export default function Home() {
+export const revalidate = 300;
+
+export default async function Home() {
+  const projects = await getWorks();
+
   return (
     <div className="flex min-h-screen flex-col bg-[var(--bg)] text-[var(--text)]">
       <Nav />
@@ -19,7 +24,7 @@ export default function Home() {
         <Hero />
         <ProjectStrip />
         <About />
-        <ProjectGrid />
+        <ProjectGrid projects={projects} />
         <ProcessVideo />
         <Services />
         <Experience />

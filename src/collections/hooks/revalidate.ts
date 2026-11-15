@@ -3,7 +3,7 @@ import { revalidatePath } from 'next/cache';
 export const revalidateHomepage = () => {
   try {
     revalidatePath('/');
-  } catch (err) {
-    console.error('Failed to revalidate path /:', err);
+  } catch {
+    // Invariant when called outside Next.js request context (e.g. CLI import/build)
   }
 };

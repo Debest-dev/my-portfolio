@@ -2,7 +2,7 @@
 
 import React, { useCallback, useEffect, useRef, useState } from "react";
 import { ChevronLeft, ChevronRight, X } from "lucide-react";
-import { WorkProject, imageAlt, imageVariants } from "@/data/works";
+import { WorkProject, WorkImage, imageAlt, imageVariants } from "@/data/works";
 
 interface WorkLightboxProps {
   project: WorkProject;
@@ -10,8 +10,11 @@ interface WorkLightboxProps {
   onClose: () => void;
 }
 
-const largestVariant = (project: WorkProject, file: string) => {
-  const variants = imageVariants(project.slug, file);
+const largestVariant = (image: WorkImage, project: WorkProject) => {
+  if (image.variants && image.variants.length > 0) {
+    return image.variants[image.variants.length - 1];
+  }
+  const variants = imageVariants(project.slug, image.file);
   return variants[variants.length - 1];
 };
 
@@ -42,13 +45,14 @@ export const WorkLightbox: React.FC<WorkLightboxProps> = ({ project, startIndex,
 
   useEffect(() => {
     if (index + 1 < count) {
+      const nextImage = project.images[index + 1];
       const preload = new Image();
-      preload.src = largestVariant(project, project.images[index + 1].file).src;
+      preload.src = largestVariant(nextImage, project).src;
     }
   }, [index, count, project]);
 
   const image = project.images[index];
-  const variant = largestVariant(project, image.file);
+  const variant = largestVariant(image, project);
 
   return (
     <div
@@ -95,7 +99,7 @@ export const WorkLightbox: React.FC<WorkLightboxProps> = ({ project, startIndex,
         <img
           key={image.file}
           src={variant.src}
-          alt={imageAlt(project, image)}
+          alt={image.alt ?? imageAlt(project, image)}
           decoding="async"
           className="max-h-full max-w-full object-contain"
         />

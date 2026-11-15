@@ -142,21 +142,25 @@ export const ProjectDialog: React.FC<ProjectDialogProps> = ({ project, onClose, 
 
               <div className="columns-2 gap-3 md:columns-3 md:gap-4">
                 {project.images.map((image, i) => {
-                  const variants = imageVariants(project.slug, image.file);
+                  const variants =
+                    image.variants && image.variants.length > 0
+                      ? image.variants
+                      : imageVariants(project.slug, image.file);
                   const base = variants[0];
+                  const altText = image.alt ?? imageAlt(project, image);
                   return (
                     <button
                       key={image.file}
                       type="button"
                       onClick={() => setLightboxIndex(i)}
-                      aria-label={`Open ${imageAlt(project, image)} full screen`}
+                      aria-label={`Open ${altText} full screen`}
                       className="group mb-3 block w-full break-inside-avoid overflow-hidden rounded-xl border border-[var(--border)] bg-[var(--card)] text-left transition-colors hover:border-[var(--accent)] md:mb-4"
                     >
                       <img
                         src={base.src}
                         srcSet={variants.map((v) => `${v.src} ${v.width}w`).join(", ")}
                         sizes="(max-width: 768px) calc(50vw - 22px), 312px"
-                        alt={imageAlt(project, image)}
+                        alt={altText}
                         width={base.width}
                         height={base.height}
                         loading={i < 4 ? "eager" : "lazy"}

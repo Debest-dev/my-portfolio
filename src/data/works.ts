@@ -5,6 +5,8 @@ export type WorkSection = "Campaign design" | "Compositing" | "Retouching";
 export interface WorkImage {
   file: string;
   caption?: string;
+  alt?: string;
+  variants?: ImageVariant[];
 }
 
 export interface WorkProject {

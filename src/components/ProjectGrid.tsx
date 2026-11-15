@@ -10,7 +10,12 @@ type WorkFilter = "All" | WorkSection;
 
 const FILTERS: WorkFilter[] = ["All", "Retouching", "Compositing", "Campaign design"];
 
-export const ProjectGrid: React.FC = () => {
+export interface ProjectGridProps {
+  projects?: WorkProject[];
+}
+
+export const ProjectGrid: React.FC<ProjectGridProps> = ({ projects }) => {
+  const items = projects && projects.length > 0 ? projects : works;
   const [activeFilter, setActiveFilter] = useState<WorkFilter>("All");
   const [openSlug, setOpenSlug] = useState<string | null>(null);
   const triggerRef = useRef<HTMLElement | null>(null);
@@ -154,11 +159,11 @@ export const ProjectGrid: React.FC = () => {
   }, [canOverflow, canScrollLeft, canScrollRight]);
 
   const visibleProjects = useMemo(
-    () => (activeFilter === "All" ? works : works.filter((w) => w.section === activeFilter)),
-    [activeFilter]
+    () => (activeFilter === "All" ? items : items.filter((w) => w.section === activeFilter)),
+    [activeFilter, items]
   );
 
-  const openProject = openSlug ? works.find((w) => w.slug === openSlug) ?? null : null;
+  const openProject = openSlug ? items.find((w) => w.slug === openSlug) ?? null : null;
 
   const handleOpen = (project: WorkProject, trigger: HTMLElement) => {
     triggerRef.current = trigger;

@@ -14,9 +14,12 @@ export const WorkCard: React.FC<WorkCardProps> = ({ project, index, onOpen }) =>
   const [expanded, setExpanded] = useState(false);
   const panelId = `work-process-${project.slug}`;
 
-  const variants = imageVariants(project.slug, project.cover);
+  const coverImage = project.images.find((img) => img.file === project.cover) ?? project.images[0];
+  const variants =
+    coverImage?.variants && coverImage.variants.length > 0
+      ? coverImage.variants
+      : imageVariants(project.slug, project.cover);
   const base = variants[0];
-  const coverImage = project.images.find((img) => img.file === project.cover);
   const bottomHalf = project.coverCrop === "bottom-half";
   const contain = project.coverFit === "contain";
   const objectPosition = bottomHalf
@@ -44,7 +47,7 @@ export const WorkCard: React.FC<WorkCardProps> = ({ project, index, onOpen }) =>
               src={base.src}
               srcSet={variants.map((v) => `${v.src} ${v.width}w`).join(", ")}
               sizes="(max-width: 480px) 100vw, (max-width: 1024px) 50vw, 33vw"
-              alt={coverImage ? imageAlt(project, coverImage) : project.title}
+              alt={coverImage?.alt ?? (coverImage ? imageAlt(project, coverImage) : project.title)}
               width={base.width}
               height={base.height}
               loading={index < 3 ? "eager" : "lazy"}
