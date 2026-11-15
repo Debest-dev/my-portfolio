@@ -4,18 +4,28 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "payload migrate && next build",
     "start": "next start",
     "lint": "next lint",
+    "payload": "payload",
+    "backup": "npx tsx scripts/backup.ts",
     "optimize:works": "node scripts/optimize-works.mjs"
   },
   "dependencies": {
+    "@payloadcms/db-postgres": "3.93.0",
+    "@payloadcms/next": "3.93.0",
+    "@payloadcms/richtext-lexical": "3.93.0",
+    "@payloadcms/storage-vercel-blob": "3.93.0",
     "clsx": "^2.1.1",
+    "graphql": "^16.8.1",
     "lucide-react": "^1.16.0",
     "next": "15.4.11",
-    "react": "19.0.0",
-    "react-dom": "19.0.0",
-    "tailwind-merge": "^2.5.5"
+    "payload": "3.93.0",
+    "react": "19.0.1",
+    "react-dom": "19.0.1",
+    "sharp": "0.35.5",
+    "tailwind-merge": "^2.5.5",
+    "tsx": "^4.19.2"
   },
   "devDependencies": {
     "@types/node": "^20.17.10",
@@ -24,7 +34,6 @@
     "autoprefixer": "^10.4.20",
     "eslint-config-next": "15.4.11",
     "postcss": "^8.4.49",
-    "sharp": "^0.35.5",
     "tailwindcss": "^3.4.17",
     "typescript": "^5.7.2"
   }
