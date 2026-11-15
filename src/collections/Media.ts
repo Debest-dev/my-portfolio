@@ -8,7 +8,10 @@ export const Media: CollectionConfig = {
   slug: 'media',
   upload: {
     mimeTypes: ['image/*'],
-    adminThumbnail: 'w800',
+    adminThumbnail: ({ doc }) => {
+      const sizes = doc?.sizes as Record<string, { url?: string }> | undefined;
+      return sizes?.w800?.url || (doc?.url as string) || null;
+    },
     imageSizes: [
       {
         name: 'w800',

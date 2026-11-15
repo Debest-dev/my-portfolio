@@ -36,6 +36,27 @@ export const Projects: CollectionConfig = {
     ],
     afterChange: [revalidateHomepage],
     afterDelete: [revalidateHomepage],
+    afterRead: [
+      async ({ doc, req }) => {
+        if (doc && Array.isArray(doc.images) && doc.images.length > 0) {
+          const first = doc.images[0];
+          if (first && (typeof first.image === 'number' || typeof first.image === 'string')) {
+            try {
+              const media = await req.payload.findByID({
+                collection: 'media',
+                id: first.image,
+                depth: 0,
+                req,
+              });
+              if (media) {
+                first.image = media;
+              }
+            } catch {}
+          }
+        }
+        return doc;
+      },
+    ],
   },
   fields: [
     {
