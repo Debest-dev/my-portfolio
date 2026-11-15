@@ -68,7 +68,7 @@ export const WorkCard: React.FC<WorkCardProps> = ({ project, index, onOpen }) =>
         </span>
       </button>
 
-      <div className="flex flex-1 flex-col space-y-3 min-h-[136px] md:min-h-[128px]">
+      <div className="flex flex-1 flex-col space-y-3 min-h-[148px] md:min-h-[140px]">
         {hasSummary && (
           <p className="line-clamp-2 min-h-10 text-xs leading-5 text-[var(--muted)]">{project.summary}</p>
         )}

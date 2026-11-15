@@ -94,7 +94,7 @@ async function run() {
     });
     const mediaMap = new Map<string, any>(existingMediaRes.docs.map((m: any) => [m.filename, m]));
 
-    const projectImages: { image: number | string }[] = [];
+    const projectImages: { image: number }[] = [];
 
     for (let i = 0; i < files.length; i++) {
       resetTimeout();
@@ -136,7 +136,7 @@ async function run() {
       }
 
       projectImages.push({
-        image: mediaDoc.id,
+        image: Number(mediaDoc.id),
       });
     }
 

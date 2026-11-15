@@ -42,10 +42,9 @@ export function imageVariants(slug: string, file: string): ImageVariant[] {
 }
 
 export function imageAlt(project: WorkProject, image: WorkImage): string {
+  if (image.caption) return `${project.title} - ${image.caption}`;
   const n = project.images.indexOf(image) + 1;
-  const base = `${project.title} – image ${n} of ${project.images.length}`;
-  if (image.caption) return `${base} - ${image.caption}`;
-  return base;
+  return `${project.title} - image ${n} of ${project.images.length}`;
 }
 
 const range = (from: number, to: number, caption?: string): WorkImage[] =>

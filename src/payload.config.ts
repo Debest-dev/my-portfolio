@@ -3,10 +3,11 @@ import { fileURLToPath } from 'url';
 import dns from 'dns';
 import { buildConfig } from 'payload';
 
-try {
-  dns.setDefaultResultOrder('ipv4first');
-  dns.setServers(['8.8.8.8', '1.1.1.1']);
-} catch {}
+if (!process.env.VERCEL) {
+  try {
+    dns.setDefaultResultOrder('ipv4first');
+  } catch {}
+}
 import { postgresAdapter } from '@payloadcms/db-postgres';
 import { vercelBlobStorage } from '@payloadcms/storage-vercel-blob';
 import { lexicalEditor } from '@payloadcms/richtext-lexical';
